@@ -1,0 +1,13 @@
+a = {height: 76, weight: 180, girth: 33}
+
+b = {height: 80, weight: 180, girth: 33, age: 66}
+
+c = a.merge(b)
+p a
+# {:height=>76, :weight=>180, :girth=>33}
+
+d = a.merge!(b)
+p a
+
+#{:height=>80, :weight=>180, :girth=>33, :age=>66}
+

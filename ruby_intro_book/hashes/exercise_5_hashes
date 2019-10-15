@@ -1,0 +1,17 @@
+my_hash = {
+  people: ['john','billy','david'],
+  car: "audi",
+  income:[100000,80000,125000]
+}
+if my_hash.has_key?(:people)
+  puts "#{my_hash[:people]}"
+  
+end
+
+#my_hash.has_key?(:people) This will result in boolean answer
+
+if my_hash.has_value?("aui")
+  puts "#{my_hash[:car]}"
+else
+  puts "Its not here"
+end

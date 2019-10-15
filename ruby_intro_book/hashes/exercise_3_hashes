@@ -1,0 +1,20 @@
+person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
+
+person.each do |key, value|
+  puts key
+  
+end
+
+person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
+
+person.each do |key, value|
+  puts value
+  
+end
+
+person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
+
+person.each do |key, value|
+  puts "#{key}:#{value}"
+  
+end
